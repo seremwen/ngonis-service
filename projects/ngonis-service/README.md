@@ -38,7 +38,7 @@ import { environment } from '../environments/environment'; // Adjust path as nee
   imports: [
     BrowserModule,
     HttpClientModule,
-    DefaultServiceModule
+   NgonisServiceModule
   ],
   providers: [
     NgonisService,
