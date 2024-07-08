@@ -1,0 +1,19 @@
+{
+  "name": "ngonis-service",
+  "version": "0.0.1",
+  "description": "Angular module designed to simplify HTTP requests and API interactions within Angular applications. It provides a standardized service (NgonisService) for performing common HTTP operations such as GET, POST, PUT, DELETE, and handling errors",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seremwen/ngonis-service.git"
+  },
+  "author": "Ngoni Seremwe",
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
