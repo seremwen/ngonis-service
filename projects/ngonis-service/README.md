@@ -28,7 +28,7 @@ Import the `NgonisService` into your Angular application's root module (e.g., `A
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { DefaultServiceModule, BASE_URL_TOKEN } from 'default-service';
+import { NgonisService, BASE_URL_TOKEN } from 'ngonis-http-service';
 import { environment } from '../environments/environment'; // Adjust path as needed
 
 @NgModule({
@@ -55,7 +55,7 @@ Inject `NgonisService` into your components or services and use its methods to i
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { NgonisService } from 'ngonis-service';
+import { NgonisService } from 'ngonis-http-service';
 
 @Component({
   selector: 'app-my-component',
@@ -112,7 +112,7 @@ Errors are handled internally in `NgonisService`. You can customize error handli
 ```typescript
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { NgonisService } from 'ngonis-service';
+import { NgonisService } from 'ngonis-http-service';
 
 @Injectable({
   providedIn: 'root'
