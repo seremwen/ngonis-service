@@ -1,5 +1,5 @@
 {
-  "name": "ngonis-service",
+  "name": "ngonis-http-service",
   "version": "0.0.1",
   "description": "Angular module designed to simplify HTTP requests and API interactions within Angular applications. It provides a standardized service (NgonisService) for performing common HTTP operations such as GET, POST, PUT, DELETE, and handling errors",
   

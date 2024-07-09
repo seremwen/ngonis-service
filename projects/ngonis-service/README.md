@@ -15,7 +15,7 @@ The **Ngonis Service Library** is an Angular module designed to simplify HTTP re
 Install the library via npm:
 
 ```bash
-npm install ngonis-service
+npm install ngonis-http-service
 ```
 
 ## Usage
